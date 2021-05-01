@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+}
+body{margin: 0px;
+    background-color: rgba(16, 173, 134, 0.788);
+    color: rgb(255, 255, 255);  
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+  }
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+
+}
+     
+h1 strong{
+    color: rgba(255, 145, 0, 0.966);
+    
+}
+
+ul{margin: 0px;
+   padding: 0px; 
+list-style: none;
+display: flex;
+height: inherit;
+}
+
+.padre{
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500;
+    align-items: center;
+}
+
+.hijo{
+    background: rgba(255, 166, 0, 0.842);
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellowgreen;
+    font-size: 30px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aplicar
+{
+    height: 500px;
+    background: white;
+    display: flex;
+    color: black;
+}
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 35px;
+    text-align: center;
+    background-color: rgba(9, 202, 3, 0.788);
+    
+}
+
+.container1{
+    display: flex;
+    background: orange;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.container2{
+    background: palegreen;
+}
+
+.col1-container1{
+width: 400px;
+}
+
+.col2-container1{
+width: 200px;
+}
+
+.col3-container1{
+width: 300px;
+}
+
+.aplicar-detalles img {
+    height: 45%;
+}
+.header li{
+    height: inherit;
+}
+
+.header a{
+    color: white;
+     text-decoration: none;
+     height: inherit;
+     display: flex;
+     align-items: center;
+     padding: 0px 10px;
+}
+.header{
+background:rgba(3, 11, 82, 0.623);
+color: wheat; 
+display: flex;
+justify-content: space-between;   
+height: 90px;
+
+
+}
+.logo img{
+width: 85px;    
+}
+
+.Menu{
+    height: inherit;
+}
+
+
+.Principal {
+    color: white;
+text-align: center;    
+background:green;
+padding: 40px;
+
+text-align: center; 
+background-image: url(https://blog.oxfamintermon.org/wp-content/uploads/2016/07/semillas-huerto-urbano.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.Soy{
+background:rgba(2, 15, 78, 1.711);
+text-align: center;  
+padding: 50px;  
+margin: 50px 100px;
+font-size: 20px;
+
+}
+
+.row1-contacto img{
+    width: 35px;
+    height: 25px;
+}
+
+.row1-redes img{
+    width: 35px;
+    height: 35px;
+}
+
+.row2-contacto{
+    width: 35px;
+    height: 35px;   
+}
+
+.row2-contacto img{
+    width: 35px;
+    height: 35px;
+}
+
+.row3-contacto img{
+    width: 35;
+    height: 35px;
+
+}
+
+.row1-contacto{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.row1-contacto p{
+    padding-left: 10px;
+}
+
+.row2-contacto{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.row2-contacto p{
+    padding-left: 10px;
+}
+
+.soy h1{
+    color: lawngreen;
+    margin-bottom: 10px;
+    
+}
+
+.soy p{
+    margin-bottom: 20px;
+}
+
+.Principal img{
+    width: 500px;
+}
+
+
+
+
